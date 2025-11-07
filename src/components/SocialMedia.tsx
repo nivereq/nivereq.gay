@@ -40,16 +40,6 @@ export default function SocialMedia() {
             <i className="bi bi-instagram"></i>
           </a>
         </span>
-        <span className="social">
-          <a
-            target="_blank"
-            title="me@nivereq.gay (Personal Email)"
-            href="mailto:me@nivereq.gay"
-          >
-            <i className="bi bi-envelope"></i>
-          </a>
-        </span>
-
          <span className="social">
           <a
             target="_blank"

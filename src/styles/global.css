@@ -302,11 +302,11 @@ section h2.section-title { /* Section title styles */
     margin: 0 auto;
   }
   span.social {
-    padding: 6.7px;
-    margin: 1.25px;
+    padding: 5px;
+    margin: 2px;
   }
   span.social i {
-    font-size: 21px;
+    font-size: 18px;
   }
   .brand img {
     width: 62.5px;
@@ -363,7 +363,7 @@ section h2.section-title { /* Section title styles */
   color: #fafafa;
   text-shadow: -0.75px -0.75px 0 black, 1px -0.75px 0 black, -0.75px 1px 0 black,
     1px 1px 0 black;
-  font-size: 0.95rem;
+  /* font-size: 0.75rem; */
   border: var(--foreground) 3px solid;
   background: var(--background-lighter);
 }

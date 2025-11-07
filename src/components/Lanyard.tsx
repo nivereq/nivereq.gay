@@ -31,18 +31,13 @@ export function ProfilePhoto() {
   }
 }
 
-export function SpotifyStatus() {
-  const { loading, status /*, websocket */ } = useLanyard({
-    userId: DISCORD_ID,
-    socket: true,
-  });
-}
-
 export function CustomStatus() {
   const { loading, status /*, websocket */ } = useLanyard({
     userId: DISCORD_ID,
     socket: true,
   });
+
+
 
   if (!loading && status && status.spotify && status.listening_to_spotify) {
     return (

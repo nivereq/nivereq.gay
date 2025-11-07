@@ -55,11 +55,11 @@ export default function FursonaPage() {
           <section>
             <h2 className="section-title">{t("title.parameters")}</h2>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 justify-center mt-2 mb-2 padding-5">
-              <div className="param w-42 h-12 rounded-3xl"><Twemoji className="emoji" text={"📏"} /> {`${t("parameters.height")}`}</div>
-              <div className="param w-42 h-12 rounded-3xl"><Twemoji className="emoji" text={"🧑"} /> {`${t("parameters.pronouns")}`}</div>
-              <div className="param w-42 h-12 rounded-3xl"><Twemoji className="emoji" text={"💫"} /> {`${Age()} ${t("parameters.age")}`}</div>
-              <div className="param w-42 h-12 rounded-3xl"><Twemoji className="emoji" text={"🦊"} /> {`${t("parameters.species")}`}</div>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-3 justify-center mt-2 mb-2 padding-4">
+              <div className="param w-42 h-12 rounded-3xl p-2 md:p-6"><Twemoji className="emoji text-[0.75rem] md:text-[0.975rem]" text={"📏"} /> <span className="text-[0.75rem] md:text-[0.975rem]">{`${t("parameters.height")}`}</span></div>
+              <div className="param w-42 h-12 rounded-3xl p-2 md:p-6"><Twemoji className="emoji text-[0.75rem] md:text-[0.975rem]" text={"🧑"} /> <span className="text-[0.75rem] md:text-[0.975rem]">{`${t("parameters.pronouns")}`}</span></div>
+              <div className="param w-42 h-12 rounded-3xl p-2 md:p-6"><Twemoji className="emoji text-[0.75rem] md:text-[0.975rem]" text={"💫"} /> <span className="text-[0.75rem] md:text-[0.975rem]">{`${Age()} ${t("parameters.age")}`}</span></div>
+              <div className="param w-42 h-12 rounded-3xl p-2 md:p-6"><Twemoji className="emoji text-[0.75rem] md:text-[0.975rem]" text={"🦊"} /> <span className="text-[0.75rem] md:text-[0.975rem]">{`${t("parameters.species")}`}</span></div>
             </div>
           </section>
         </main>
