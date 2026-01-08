@@ -17,8 +17,8 @@ export default function SocialMedia() {
           </a>
         </span>
         <span className="social">
-          <a target="_blank" title="TikTok" href="https://tiktok.nivereq.pl">
-            <i className="bi bi-tiktok"></i>
+          <a target="_blank" title="Twitch" href="https://twitch.tv/nivithefurry">
+            <i className="bi bi-twitch"></i>
           </a>
         </span>
         <span className="social">
